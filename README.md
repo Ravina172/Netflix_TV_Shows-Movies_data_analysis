@@ -18,22 +18,36 @@ This project involves a comprehensive analysis of Netflix's movies and TV shows 
 The dataset for this project is sourced from Kaggle dataset
 - [Netflix Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
 
-## Schema
+## Business Problems
 
-<pre> ```sql 
-  create table netflix(
-show_id varchar(7),
-type varchar(10),
-title varchar(150),
-director varchar(209),
-casts varchar(1000),
-country varchar(150),
-date_added varchar(50),
-release_year int,
-rating varchar(10),
-duration varchar(15),
-listed_in varchar(100),
-description varchar(250)
-); 
-  ``` </pre>
+Using SQL, the following business problems were created in order to extract important insights from the Netflix Movies dataset.
 
+- Identify the Netflix movie and TV show distribution.
+- Determine the most popular content rating for TV series and films.
+- Get every film that was released in a given year (2020, for example).
+- Discover which five nations have the most Netflix content available.
+- Find the platform's longest movie.
+- Discover every piece of content that Netflix has added in the previous five years.
+- Enumerate all of the films and television series that "Rajiv Chilaka" has directed.
+- List every television program with more than five seasons.
+- Determine how many pieces of content are available in each genre.
+- Find each year and the average numbers of content release in India on netflix. 
+  return top 5 year with highest avg content release!
+- List all movies that are documentaries
+- Find all content without a director
+- Find how many movies actor 'Salman Khan' appeared in last 10 years!
+- Find the top 10 actors who have appeared in the highest number of movies produced in India.
+- Categorize the content based on the presence of the keywords 'kill' and 'violence' in 
+  the description field. Label content containing these keywords as 'Bad' and all other 
+  content as 'Good'. Count how many items fall into each category.
+
+  ## SQL Solutions
+
+- I extracted valuable insights from the unprocessed Netflix dataset by using sophisticated SQL queries and concepts. To guarantee precise and perceptive analysis, each business problem was tackled using meticulously constructed SQL statements that made use of strategies like aggregation, filtering, joins, grouping, and subqueries.
+
+## Results
+
+- With a movie-to-TV show ratio of roughly [placeholder:2.3:1 ], the platform has more movies than TV series.
+- [placeholder: "TV-MA"] is the most popular rating for films,and [placeholder: "TV-14"] is the most common rating for TV series.
+- Netflix released [517] films in [placeholder year 2020].
+  
