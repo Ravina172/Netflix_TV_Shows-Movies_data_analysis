@@ -32,13 +32,13 @@ I extracted valuable insights from the unprocessed Netflix dataset by using soph
 ## Results
 
 - With a movie-to-TV show ratio of roughly **2.3 : 1**, the platform has more movies than TV series.
-- 
+  
 - **"TV-MA"** is the most popular rating for films,and **"TV-14"** is the most common rating for TV series.
-- 
+  
 - Netflix released **517** films in year **2020**.
-- 
+  
 - Netflix's catalog has grown over the past **5** years, as evidenced by the addition of **2563** new content items.
-- 
+  
 - **304** content items that contained the words **"kill"** or **"violence"** were classified as **"Bad"** whereas **8503** content items were classified as "Good."
 
 - There is no director listed for **2634** content items.
