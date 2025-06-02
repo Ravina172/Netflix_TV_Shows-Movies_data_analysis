@@ -20,7 +20,8 @@ The dataset for this project is sourced from Kaggle dataset
 
 ## Schema
 
-<pre> ```sql create table netflix(
+<pre> ```sql 
+  create table netflix(
 show_id varchar(7),
 type varchar(10),
 title varchar(150),
@@ -33,5 +34,6 @@ rating varchar(10),
 duration varchar(15),
 listed_in varchar(100),
 description varchar(250)
-); ``` </pre>
+); 
+  ``` </pre>
 
