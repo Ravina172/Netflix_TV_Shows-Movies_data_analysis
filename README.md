@@ -21,14 +21,21 @@ The dataset for this project is sourced from Kaggle dataset
 ## Business Problems
 
 Using SQL, the following business problems were created in order to extract important insights from the Netflix Movies dataset.
-[Problems]([File Name](path/to/your/file.sql))
+- [File Name](path/to/your/file.sql)
+
 ## SQL Solutions
 
-- I extracted valuable insights from the unprocessed Netflix dataset by using sophisticated SQL queries and concepts. To guarantee precise and perceptive analysis, each business problem was tackled using meticulously constructed SQL statements that made use of strategies like aggregation, filtering, joins, grouping, and subqueries.
+I extracted valuable insights from the unprocessed Netflix dataset by using sophisticated SQL queries and concepts. To guarantee precise and perceptive analysis, each business problem was tackled using meticulously constructed SQL statements that made use of strategies like aggregation, filtering, joins, grouping, and subqueries.
+
+- [File Name](path/to/your/file.sql)
 
 ## Results
 
-- With a movie-to-TV show ratio of roughly [placeholder:2.3:1 ], the platform has more movies than TV series.
-- [placeholder: "TV-MA"] is the most popular rating for films,and [placeholder: "TV-14"] is the most common rating for TV series.
-- Netflix released [517] films in [placeholder year 2020].
-  
+- With a movie-to-TV show ratio of roughly **2.3 : 1**, the platform has more movies than TV series.
+- **"TV-MA"** is the most popular rating for films,and **"TV-14"** is the most common rating for TV series.
+- Netflix released **517** films in year **2020**.
+- Netflix's catalog has grown over the past **5** years, as evidenced by the addition of **2563** new content items.
+- **304** content items that contained the words **"kill"** or **"violence"** were classified as **"Bad"** whereas **8503** content items were classified as "Good."
+- There is no director listed for **2634** content items.
+- Over the past ten years, actor **"Salman Khan"** has starred in **2** Netflix films.
+- 
