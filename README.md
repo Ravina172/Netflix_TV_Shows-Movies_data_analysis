@@ -27,15 +27,20 @@ Using SQL, the following business problems were created in order to extract impo
 
 I extracted valuable insights from the unprocessed Netflix dataset by using sophisticated SQL queries and concepts. To guarantee precise and perceptive analysis, each business problem was tackled using meticulously constructed SQL statements that made use of strategies like aggregation, filtering, joins, grouping, and subqueries.
 
-- [File Name](path/to/your/file.sql)
+- [Solutions](https://github.com/Ravina172/Netflix-Movies-Data-Analysis-Using-SQL/blob/main/Soltuons.sql)
 
 ## Results
 
 - With a movie-to-TV show ratio of roughly **2.3 : 1**, the platform has more movies than TV series.
-- **"TV-MA"** is the most popular rating for films,and **"TV-14"** is the most common rating for TV series.
-- Netflix released **517** films in year **2020**.
-- Netflix's catalog has grown over the past **5** years, as evidenced by the addition of **2563** new content items.
-- **304** content items that contained the words **"kill"** or **"violence"** were classified as **"Bad"** whereas **8503** content items were classified as "Good."
-- There is no director listed for **2634** content items.
-- Over the past ten years, actor **"Salman Khan"** has starred in **2** Netflix films.
 - 
+- **"TV-MA"** is the most popular rating for films,and **"TV-14"** is the most common rating for TV series.
+- 
+- Netflix released **517** films in year **2020**.
+- 
+- Netflix's catalog has grown over the past **5** years, as evidenced by the addition of **2563** new content items.
+- 
+- **304** content items that contained the words **"kill"** or **"violence"** were classified as **"Bad"** whereas **8503** content items were classified as "Good."
+
+- There is no director listed for **2634** content items.
+  
+- Over the past ten years, actor **"Salman Khan"** has starred in **2** Netflix films.
