@@ -21,7 +21,7 @@ The dataset for this project is sourced from Kaggle dataset
 ## Business Problems
 
 Using SQL, the following business problems were created in order to extract important insights from the Netflix Movies dataset.
-- [File Name](path/to/your/file.sql)
+- [Problems](Business Problems.sql)
 
 ## SQL Solutions
 
