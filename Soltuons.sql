@@ -28,8 +28,7 @@ WHERE
 	RANKING = 1;
 
 
--- 3. All the movies released in year 2022
--- filter by 2020 , then filter by movies
+-- 3. All the movies released in year 2022 filter by 2020 , then filter by movies
 
 SELECT
 	COUNT(*) FROM NETFLIX
@@ -92,8 +91,7 @@ group by 1
 ORDER BY 2 DESC
 
 	
--- 10. Each year and content released by india on netflix ,
--- Top 5 year with highest content release
+-- 10. Each year and content released by india on netflix , Top 5 year with highest content release
 	
 SELECT
 	EXTRACT(YEAR FROM TO_DATE(DATE_ADDED, 'Month DD YYYY')) AS YEAR,
@@ -152,8 +150,9 @@ GROUP BY 1
 ORDER BY 2 DESC LIMIT 10
 
 	
--- 15. Categorizing the content based on the presence of the keywords 'kill' and 'voilence' in the description field Label content containing these 
--- keywords as 'Bad' and allother as 'Good' Count of each category
+/* 15. Categorizing the content based on the presence of the keywords 'kill' and 'voilence' in the description field Label content containing these 
+   keywords as 'Bad' and allother as 'Good' Count of each category
+*/
 
 WITH new_table 
 AS(
