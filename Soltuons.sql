@@ -2,7 +2,7 @@
 -- Solutions of Business Problems
 
 -- 1. Count Number of tv shows and movies
-SELECT type , count(*) AS total_content FROM netflix GROUP BY type; 
+SELECT type , COUNT(*) AS total_content FROM netflix GROUP BY type; 
 
 -- 2. Most common rating for tv show and movies
 SELECT
@@ -10,32 +10,24 @@ SELECT
 	RATING
 FROM
 	(
-		SELECT
-			TYPE,
-			RATING,
-			COUNT(*),
-			RANK() OVER (
-				PARTITION BY
-					TYPE
-				ORDER BY
-					COUNT(*) DESC
-			) AS RANKING
-		FROM
-			NETFLIX
-		GROUP BY
-			1,
-			2
+	SELECT
+	 TYPE,
+	 RATING,
+	 COUNT(*),
+	 RANK() OVER (
+	 PARTITION BY
+	TYPE
+	ORDER BY COUNT(*) DESC
+	) AS RANKING FROM NETFLIX
+	GROUP BY 1,2
 	) AS T1
 WHERE
 	RANKING = 1;
 
 -- 3. All the movies released in year 2022
-
 -- filter by 2020 , then filter by movies
 SELECT
-	count(*)
-FROM
-	NETFLIX
+	COUNT(*) FROM NETFLIX
 WHERE
 	TYPE = 'Movie'
 	AND RELEASE_YEAR = 2020;
@@ -45,53 +37,34 @@ WHERE
 SELECT
 	UNNEST(STRING_TO_ARRAY(COUNTRY, ',')) AS NEW_COUNTRY,
 	COUNT(SHOW_ID) AS TOTAL_CONTENT
-FROM
-	NETFLIX
-GROUP BY
-	1
-ORDER BY
-	2 DESC
-LIMIT
-	5;
+FROM NETFLIX
+GROUP BY 1
+ORDER BY 2 DESC LIMIT 5;
 	
 -- 5.Longest Movie
 
 SELECT
-	DURATION
-FROM
-	NETFLIX
+	DURATION FROM NETFLIX
 WHERE
 	TYPE = 'Movie'
-	AND DURATION = (
-		SELECT
-			MAX(DURATION)
-		FROM
-			NETFLIX
-	)
+	AND DURATION = (SELECT MAX(DURATION) FROM NETFLIX)
 
 -- 6. Content added in last 5 years
 
 SELECT
-	count(*)
-FROM
-	NETFLIX
+	COUNT(*) FROM NETFLIX
 WHERE
 	TO_DATE(DATE_ADDED, 'Month DD YYYY') >= CURRENT_DATE - INTERVAL '5 YEARS'
 
 -- 7. Movies / tv shows by director 'Rajiv Chilaka'
 
 SELECT
-	*
-FROM
-	NETFLIX
+	* FROM NETFLIX
 WHERE
 	DIRECTOR ILIKE '%Rajiv Chilaka%'
 
 -- 8. TV shows with more than 5 seasons
-SELECT
-	*
-FROM
-	NETFLIX
+SELECT	* FROM NETFLIX
 WHERE
 	TYPE = 'TV Show'
 	AND 
@@ -108,36 +81,22 @@ ORDER BY 2 DESC
 -- 10. Each year and content released by india on netflix ,
 -- Top 5 year with highest content release
 SELECT
-	EXTRACT(
-		YEAR
-		FROM
-			TO_DATE(DATE_ADDED, 'Month DD YYYY')
-	) AS YEAR,
+	EXTRACT(YEAR FROM TO_DATE(DATE_ADDED, 'Month DD YYYY')) AS YEAR,
 	COUNT(*) AS YEARLY_CONTENT,
-	ROUND(
-		COUNT(*)::NUMERIC / (
-			SELECT
-				COUNT(*)
-			FROM
-				NETFLIX
-			WHERE
-				COUNTRY = 'India'
-		)::NUMERIC * 100,
-		2
-	) AS AVG_CONTENT_PER_YEARFROM
-	NETFLIX
+	ROUND(COUNT(*)::NUMERIC / (SELECT COUNT(*) FROMNETFLIX
+			         WHERE
+				  COUNTRY = 'India'
+		                  )::NUMERIC * 100,2) 
+	AS AVG_CONTENT_PER_YEARFROM NETFLIX
 WHERE
 	COUNTRY = 'India'
-GROUP BY
-	1
+GROUP BY 1
 
 
 -- 11. All movies that are documentaries
 
 SELECT
-	*
-FROM
-	NETFLIX
+	* FROM NETFLIX
 WHERE
 	TYPE ILIKE'%Movie%'
 	AND LISTED_IN ILIKE'%Documentaries%'
