@@ -4,7 +4,7 @@
 
 ## Overview
 
-This project involves a comprehensive analysis of Netflix's movies and TV shows data using SQL. The goal is to extract valuable insights and answer various business questions based on the dataset. The following README provides a detailed account of the project's objectives, business problems, solutions, findings, and conclusions.
+As Netflix expands into diverse markets, understanding what content performs well, where investment is slowing, and how catalog structure affects viewer engagement is critical. This analysis enables data-driven decisions around content acquisition, regional investment, and platform optimization. The following README provides a detailed account of the project's objectives, business problems, solutions, findings, and conclusions.
 
 ## Obectives
 
@@ -29,9 +29,11 @@ I extracted valuable insights from the unprocessed Netflix dataset by using soph
 
 - [Solutions](https://github.com/Ravina172/Netflix-Movies-Data-Analysis-Using-SQL/blob/main/Soltuons.sql)
 
-## Results
+## Insights & Recommendations
 
-- With a movie-to-TV show ratio of roughly **2.3 : 1**, the platform has more movies than TV series.
+- 27% decline in India’s average monthly content releases (2017–2020), signaling a slowdown in regional growth and a need for targeted reinvestment.
+
+- Netflix maintains a 2.3:1 movie-to-TV ratio and added 2,563 new titles in 5 years, highlighting a strategic opportunity to rebalance content types and scale high-performing formats.
   
 - **"TV-MA"** is the most popular rating for films,and **"TV-14"** is the most common rating for TV series.
   
