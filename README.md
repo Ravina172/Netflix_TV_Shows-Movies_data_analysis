@@ -17,8 +17,8 @@ Streaming platforms like Netflix constantly invest in new content to retain subs
 - Explore and categorize content based on specific criteria and keywords.
 
 ## Data Description
-- **Source** - Kaggle [Dataset Link](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
-- **Rows** - 8088
+- **Source**: Kaggle [Dataset Link](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
+- **Rows**: 8088
 - **Key Columns**:
   - type – Movie or TV Show
   - country – Country of availability
@@ -33,9 +33,9 @@ Streaming platforms like Netflix constantly invest in new content to retain subs
 - Business analysis
 
 ## Approach
-- Data Cleaning – Standardized date formats, filled nulls, filtered relevant time range
-- Exploratory Analysis (SQL) – Counted content by type, country, and year
-- Visual Analysis (Power BI) – Created dashboards for content mix, release trends, country growth
+- Data Cleaning: Standardized date formats, filled nulls, filtered relevant time range.
+- Exploratory Analysis:Used SQL Queries to analyse the data.
+- Visual Analysis: Used Power Bi to Create dashboards for content mix, release trends, country growth
 
 ## Key Insights
 - In India saw a **27% decline** in average monthly content releases (2017–2020).
@@ -61,7 +61,5 @@ Streaming platforms like Netflix constantly invest in new content to retain subs
 
 ## About Me
 I'm an aspiring Data Analyst who turns raw data into actionable business insights. My strength lies in asking the right questions, building clear visual stories, and making recommendations that drive results.I’m actively looking for opportunities where I can help businesses grow through smarter data use.
-
 Connect on [Linkedin](https://www.linkedin.com/in/ravina-patidar-474a9b255/)
-
 Reach me at [Email](ravinapatidar13634@gmail.com)
