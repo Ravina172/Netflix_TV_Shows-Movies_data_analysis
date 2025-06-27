@@ -5,9 +5,9 @@
 ## Business Problem
 Streaming platforms like Netflix constantly invest in new content to retain subscribers, expand in regional markets, and stay ahead of competitors. But without clear visibility into where content investment is declining or underperforming, the company risks losing engagement in key markets. This project helps answer this questions:
 
-- Are we releasing enough content to sustain viewer interest across different countries?
-- Is our content mix (movies vs. TV shows) aligned with audience preferences?
-- Where should we reinvest to maintain market share and reduce churn?
+- Are we releasing enough content to sustain viewer interest across different countries ?
+- Is our content mix (movies vs. TV shows) aligned with audience preferences ?
+- Where should we reinvest to maintain market share and reduce churn ?
 
 ## Obectives
 - Analyze trends in content releases over time (globally and regionally).
@@ -61,5 +61,7 @@ Streaming platforms like Netflix constantly invest in new content to retain subs
 
 ## About Me
 I'm an aspiring Data Analyst who turns raw data into actionable business insights. My strength lies in asking the right questions, building clear visual stories, and making recommendations that drive results.I’m actively looking for opportunities where I can help businesses grow through smarter data use.
+
 Connect on [Linkedin](https://www.linkedin.com/in/ravina-patidar-474a9b255/)
+
 Reach me at [Email](ravinapatidar13634@gmail.com)
