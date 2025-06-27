@@ -2,47 +2,73 @@
 
 ![Netflix Logo](https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg)
 
-## Overview
+## Business Problem
+Streaming platforms like Netflix constantly invest in new content to retain subscribers, expand in regional markets, and stay ahead of competitors. But without clear visibility into where content investment is declining or underperforming, the company risks losing engagement in key markets. This project helps answer this questions:
 
-As Netflix expands into diverse markets, understanding what content performs well, where investment is slowing, and how catalog structure affects viewer engagement is critical. This analysis enables data-driven decisions around content acquisition, regional investment, and platform optimization. The following README provides a detailed account of the project's objectives, business problems, solutions, findings, and conclusions.
+- Are we releasing enough content to sustain viewer interest across different countries?
+
+- Is our content mix (movies vs. TV shows) aligned with audience preferences?
+
+- Where should we reinvest to maintain market share and reduce churn?
 
 ## Obectives
 
-- Analyze the distribution of content types (movies vs TV shows).
-- Identify the most common ratings for movies and TV shows.
-- List and analyze content based on release years, countries, and durations.
+- Analyze trends in content releases over time (globally and regionally)
+
+- Compare the volume and ratio of TV Shows vs. Movies
+
+- Identify shifts in content strategy in key markets (e.g. India)
+
+- Generate actionable recommendations for content investment
+- 
 - Explore and categorize content based on specific criteria and keywords.
 
-## Dataset
+## Data Description
 
-The dataset for this project is sourced from Kaggle dataset
-- [Netflix Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
+- **Source** - [Netflix Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
+- **Rows** - 8088
+- **Key Columns**:
+  - type – Movie or TV Show
 
-## Business Problems
+  - country – Country of availability
 
-Using SQL, the following business problems were created in order to extract important insights from the Netflix Movies dataset.
-- [Problems](https://github.com/Ravina172/Netflix-Movies-Data-Analysis-Using-SQL/blob/main/Business%20Problems.sql)
+  - date_added – When it was added to the platform
 
-## SQL Solutions
+  - release_year, duration, listed_in, description
 
-I extracted valuable insights from the unprocessed Netflix dataset by using sophisticated SQL queries and concepts. To guarantee precise and perceptive analysis, each business problem was tackled using meticulously constructed SQL statements that made use of strategies like aggregation, filtering, joins, grouping, and subqueries.
+## Tools & Skills Used
 
-- [Solutions](https://github.com/Ravina172/Netflix-Movies-Data-Analysis-Using-SQL/blob/main/Soltuons.sql)
+- SQL
+- Python
+- Power BI
+- Business analysis
 
-## Insights & Recommendations
+## Approach
 
-- **27% decline** in India’s average monthly content releases (2017–2020), signaling a slowdown in regional growth and a need for targeted reinvestment.
+- Data Cleaning – Standardized date formats, filled nulls, filtered relevant time range
+- Exploratory Analysis (SQL) – Counted content by type, country, and year
+- Visual Analysis (Power BI) – Created dashboards for content mix, release trends, country growth
 
-- Netflix maintains a **2.3:1 movie-to-TV ratio** and added **2,563 new titles in 5 years**, highlighting a strategic opportunity to rebalance content types and scale high-performing formats.
+## Key Insights
+
+- In India saw a 27% decline in average monthly content releases (2017–2020)
+
+- 70% of Netflix’s new content over the past five years has been movies, while just 30% were TV shows
+
+-  Netflix's catalog has grown over the past **5** years, as evidenced by the addition of **2563** new content items
+
+-  Only 3.5% of Netflix content contained words like ‘kill’ or ‘violence’ and was flagged as ‘Bad’, while over 96% of the content was classified as ‘Good’
   
-- **"TV-MA"** is the most popular rating for films,and **"TV-14"** is the most common rating for TV series.
-  
-- Netflix released **517** films in year **2020**.
-  
-- Netflix's catalog has grown over the past **5** years, as evidenced by the addition of **2563** new content items.
-  
-- **304** content items that contained the words **"kill"** or **"violence"** were classified as **"Bad"** whereas **8503** content items were classified as "Good."
+## Business Recommendations
+1. Reignite Growth in High-Potential Regional Markets
+India’s 27% drop in content releases signals fading investment in a key market. Netflix should double down on regional content production—especially in local languages—to maintain engagement and defend market share.
 
-- There is no director listed for **2634** content items.
-  
-- Over the past ten years, actor **"Salman Khan"** has starred in **2** Netflix films.
+2. Shift Portfolio Strategy Toward Binge-Worthy TV
+With 70% of new content being movies, Netflix may be under-serving long-form engagement. Increasing investment in serialized, episodic content could improve viewer retention and session duration.
+
+3. Operationalize Regional Insights with Real-Time Dashboards
+Equip regional teams with dynamic dashboards to monitor release trends, engagement, and genre performance—enabling faster, data-backed content planning at the country level.
+
+4. Enhance Personalization Using Content Sentiment Signals
+Only 3.5% of content shows negative tone markers (e.g., “kill”, “violence”). Leverage this insight to improve Netflix’s recommendation system for family-friendly and mood-based viewer segments.
+
