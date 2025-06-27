@@ -1,6 +1,6 @@
-# Netflix Movies and TV Shows Data Analysis Using SQL
+# Netflix Movies and TV Shows Data Analysis
 
-![Netflix Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fbrand.netflix.com%2Fen%2Fassets%2Flogos%2F&psig=AOvVaw1TsOCe1gP9Y-L2g5rzYEqI&ust=1751122562439000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKjo8ofukY4DFQAAAAAdAAAAABAE)
+![Netflix Logo](https://user-images.githubusercontent.com/65147413/205559102-2b26f4d7-c6ee-4aea-9a93-e119c3e6cc63.png)
 
 ## Business Problem
 Streaming platforms like Netflix constantly invest in new content to retain subscribers, expand in regional markets, and stay ahead of competitors. But without clear visibility into where content investment is declining or underperforming, the company risks losing engagement in key markets. This project helps answer this questions:
@@ -23,7 +23,8 @@ Streaming platforms like Netflix constantly invest in new content to retain subs
   - type – Movie or TV Show
   - country – Country of availability
   - date_added – When it was added to the platform
-  - release_year, duration, listed_in, description
+  -  listed_in - Genre 
+  - release_year, duration, description
 
 ## Tools & Skills Used
 - SQL
@@ -60,5 +61,7 @@ Streaming platforms like Netflix constantly invest in new content to retain subs
 
 ## About Me
 I'm an aspiring Data Analyst who turns raw data into actionable business insights. My strength lies in asking the right questions, building clear visual stories, and making recommendations that drive results.I’m actively looking for opportunities where I can help businesses grow through smarter data use.
-Connect on ![Linkedin](https://www.linkedin.com/in/ravina-patidar-474a9b255/)
-Reach me at ![Email](ravinapatidar13634@gmail.com)
+
+Connect on [Linkedin](https://www.linkedin.com/in/ravina-patidar-474a9b255/)
+
+Reach me at [Email](ravinapatidar13634@gmail.com)
