@@ -33,8 +33,8 @@ Streaming platforms like Netflix constantly invest in new content to retain subs
 - Business analysis
 
 ## Approach
-- Data Cleaning: Standardized date formats, filled nulls, filtered relevant time range.
-- Exploratory Analysis:Used SQL Queries to analyse the data.
+- Data Cleaning: Standardized date formats, handled nulls, filtered relevant time range.
+- Exploratory Analysis: Used SQL Queries to analyse the data.
 - Visual Analysis: Used Power Bi to Create dashboards for content mix, release trends, country growth
 
 ## Key Insights
