@@ -1,0 +1,5 @@
+SELECT	* FROM NETFLIX
+WHERE
+	TYPE = 'TV Show'
+	AND 
+	SPLIT_PART(DURATION, ' ', 1):: numeric > 5
