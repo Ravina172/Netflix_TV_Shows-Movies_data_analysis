@@ -1,0 +1,5 @@
+SELECT
+	* FROM NETFLIX
+WHERE
+	TYPE ILIKE'%Movie%'
+	AND LISTED_IN ILIKE'%Documentaries%'
