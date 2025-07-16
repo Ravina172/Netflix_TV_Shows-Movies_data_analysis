@@ -56,12 +56,26 @@ Streaming platforms like Netflix constantly invest in new content to retain subs
 4. Enhance Personalization Using Content Sentiment Signals
   - Only 3.5% of content shows negative tone markers (e.g., “kill”, “violence”). Leverage this insight to improve Netflix’s recommendation system for family-friendly and mood-based viewer segments.
 
-## Visualization
-
-
 ## About Me
 I'm an aspiring Data Analyst who turns raw data into actionable business insights. My strength lies in asking the right questions, building clear visual stories, and making recommendations that drive results.I’m actively looking for opportunities where I can help businesses grow through smarter data use.
+<p align="left">
+  <a href="https://www.linkedin.com/in/ravina-patidar-474a9b255/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  
+  <a href="https://yourportfolio.com" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-FF6F61?style=for-the-badge&logo=internet-explorer&logoColor=white" alt="Portfolio"/>
+  </a>
+  
+  <a href="https://github.com/ravina172" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-6e6e6e?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  
+  <a href="https://www.kaggle.com/ravinapatidar" target="_blank">
+    <img src="https://img.shields.io/badge/Kaggle-89CFF0?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle"/>
+  </a>
 
-Connect on [Linkedin](https://www.linkedin.com/in/ravina-patidar-474a9b255/)
-
-Reach me at [Email](ravinapatidar13634@gmail.com)
+  <a href="mailto:ravinapatidar13634@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-8BC34A?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
+</p>
